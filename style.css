@@ -8,7 +8,7 @@
 header{
   width:100%;
   padding:20px 0;
-  margin:0 auto;
+  margin:0 auto;/*不要？*/
   text-align:center;
 }
 
@@ -16,7 +16,7 @@ header{
   text-align:center;
   padding:15px 0;
   margin:0 auto;
-  border:solid black;
+  border:solid black; /*もっとスマートに書ける*/
   border-top-width:1px;
   border-right-width:0;
   border-bottom-width:1px;
@@ -24,14 +24,17 @@ header{
   }
 
 
+/*nav-list-itemについて記載がない*/
+
+
 .main{
   width:800px;
-  height:700px;
-  padding:50px 0;
+  height:700px; /*不要？*/
+  padding:50px 0;/*paddingではなくmargin?*/
   display:flex;
   flex-wrap:wrap;
-  justify-content:center;
-  margin: 0 auto;
+  justify-content:center;/*不要？*/
+  margin: 0 auto;/*不要？*/
 }
 
 
